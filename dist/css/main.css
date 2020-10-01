@@ -75,4 +75,9 @@ main .container .btn {
   padding: 1em 1.5em;
   border-radius: 0.5em;
 }
+
+main .container .btn:hover {
+  background-color: gray;
+  color: white;
+}
 /*# sourceMappingURL=main.css.map */
