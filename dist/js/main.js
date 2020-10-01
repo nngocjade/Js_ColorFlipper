@@ -1,4 +1,4 @@
-const colors = ["green", "red", "rgba(133,122,200)", "#f15025"];
+const colors = ["violet", "indigo", "blue", "green", "yellow", "orange", "red"];
 const btn = document.getElementById("btn");
 const color = document.querySelector(".color");
 
@@ -12,6 +12,6 @@ btn.addEventListener("click", function () {
 });
 
 function getRandomNumber() {
- //math floor will round to the nearest integer
+  //math floor will round to the nearest integer
   return Math.floor(Math.random() * colors.length);
 }
