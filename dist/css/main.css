@@ -17,6 +17,7 @@ body {
           align-items: center;
   margin: 0 auto;
   position: relative;
+  background-color: #f1f5f8;
 }
 
 nav {
@@ -90,7 +91,7 @@ main .container .btn {
   background-color: transparent;
   -webkit-box-shadow: 0px 0px 0px transparent;
           box-shadow: 0px 0px 0px transparent;
-  border: 1px solid gray;
+  border: 2px solid #616161;
   text-shadow: 0px 0px 0px transparent;
   padding: 1em 1.5em;
   border-radius: 0.5em;
@@ -98,8 +99,7 @@ main .container .btn {
 }
 
 main .container .btn:hover {
-  background-color: gray;
+  background-color: #616161;
   color: white;
-  border: 1px solid #4e4e4e;
 }
 /*# sourceMappingURL=main.css.map */
