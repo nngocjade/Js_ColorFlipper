@@ -9,6 +9,6 @@ btn.addEventListener("click", function () {
     hexColor += hex[11];
   }
 
-  color.textContent = hexColor;
+  color.textContent  = hexColor;
   document.body.style.backgroundColor = hexColor;
 });
